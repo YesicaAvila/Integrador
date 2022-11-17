@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Cormorant+Infant:ital@1&display=swap');
+:root {
+    --background: #292E49;
+    --bg-claro: #acb6e5;
+    /* texto */
+    --text-white: #E4E5E6;
+    --text-blue: #00416A;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Aboreto", "Cormorant";
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    font-family: Aboreto;
+    background-image: url("./asset/fondo-edificio.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.form-login {
+    width: 400px;
+    height: 350px;
+    background: #292E49;
+    margin:auto;
+    margin-top: 180px;
+    box-shadow: 7px 13px 37px #292E49;
+    padding: 20px 30px;
+    border-top: 4px solid #292E49;
+    color: white;
+    border-radius: 1rem;
+}
+.form-login h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
+.control {
+     width: 100%;
+     border: 1px solid #292E49;
+     margin-bottom: 15px;
+     padding: 11px 10px;
+     background: #acb6e5;
+     font-size: 14px;
+     font-weight: bold;
+}
+.button {
+    width: 100%;
+    height: 40px;
+    background: #E4E5E6;
+    border-radius: 10px;
+    color: #292E49;
+    margin-bottom: 16px;
+}
+.button:hover {
+    text-decoration:underline;
+}
+.form-login p {
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+
+}
+.form-login a {
+    color: var(--text-white);
+    text-decoration: none;
+    font-size: 14px;
+}
+.form-login a:hover {
+    text-decoration: underline;
+
+}

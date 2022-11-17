@@ -1,0 +1,352 @@
+@media (max-width:992px){
+    header {
+        width: 100%;
+    }
+    .navbar {
+        gap: 10px;
+    }
+    .navbar-list {
+        position: absolute;
+        top: 80px;
+        left: 5%;
+        right: 5%;
+        width: 90%;
+        flex-direction: column;
+        background:#b92b27;
+        border: 2px solid #ffe259;
+        box-shadow: 0 3px 3px 0 rgba(0,0,0,.2);
+        border-top: 0px;
+        border-radius: 0px 0px 15px 15px;
+        align-items: flex-start;
+        padding: 45px 30px;
+        gap: 25px;
+        z-index: 2;
+        display: none;
+    }
+    .navbar-list a {
+        font-size: 18px;
+    }
+    .navbar i {
+        display: flex;
+        cursor: pointer;
+        order: 2;
+
+    }
+
+    #toggle-menu:checked + .navbar-list {
+        display: flex;
+
+    }
+
+    #hero {
+        width: 100%;
+        max-width: 500px;
+        padding: 10px;
+       
+    }
+
+
+    .hero-info {
+        width: 100%;
+        /* justify-content: center;
+        align-items: center; */
+        gap: 20px;
+        
+    } 
+
+    .hero-info h1 {
+        width: 90%;
+        text-align: center;
+        max-width: 500px;
+        min-width: unset;
+    }
+    .hero-info p {
+        width: 60%;
+        max-width: 600px;
+
+    }
+    .hero-info-a {
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-info-a a {
+        text-align: center;
+    }
+
+    
+    #about-us {
+        width: 60%;
+        text-align: center;
+
+
+    }
+    #about-us h3 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    #about-us p {
+        /* font-weight: 200; */
+        font-size: 15px;
+        text-align: center;
+        color:antiquewhite;
+    }
+    #sv h2 {
+        width: 70%;
+        font-size: 30px;
+        text-align: center;
+
+    }
+    .sv-servicios {
+       width: 80%;
+    }
+    .sv-servicios {
+        animation: none;
+    }
+    .sv-servicios-img {
+        animation: none;
+    }
+    .sv-servicios-3t {
+        animation: none;
+    }
+    .sv-servicios-turnos {
+        flex-wrap: wrap;
+    }
+    .sv-servicios-turnos h3 {
+        font-size: 30px;
+        font-weight: 300;
+        text-align: center;
+
+    }
+    .sv-container {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .sv-servicios-day {
+        flex-wrap: wrap;
+    
+    }
+    .sv-servicios-night {
+        flex-wrap: wrap;
+    }
+    #testimonios {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    #testimonios h2 {
+        font-weight: 500;
+        font-size: 30px;
+        text-align: center;
+    }
+    .testimonios-card-container {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .testimonios-card {
+        width: 100%;
+        max-width: 500px;
+    }
+    #contacto {
+        width: 100%;
+        max-width: 500px;
+        
+    }
+    #contacto h4 {
+        font-size: 30px;
+    }
+    .contacto-container-1 {
+        width: 100%;
+        max-width: 500px;
+       
+    }
+    .contacto-container {
+        width: 100%;
+        
+
+    } 
+    .contacto-container label {
+        font-size: 15px;
+    }
+   
+    .contacto-container input {
+        width: 30%;
+    }
+    
+
+}
+
+@media (max-width: 576px) {
+    header {
+        width: 100%;
+        z-index: 1;
+        /* position: fixed; */
+    }
+    .logo {
+        height: 90%;
+    }
+    #hero {
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .hero-info {
+        width: 100%;
+        gap: 30px;
+    }
+    .hero-info h1  {
+        width: 100%;
+        text-align: center;
+        min-width: unset;
+        max-width: unset;
+        
+    }
+
+    .hero-info p {
+        text-align: center;
+        width: 60%;
+        max-width: unset;
+    }
+    .hero-info-a {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        /* text-align: center; */
+    }
+    .hero-info-a a {
+        width: 100%;
+        text-align: center;
+    }
+    #about-us {
+        width: 80%;
+    }
+    #sv {
+        width: 100%;
+        padding: 0px 0px 5px 0px;
+    }
+    .sv-servicios-1 {
+        width: 100%
+    }
+    .sv-servicios-1 span {
+        width: 50%;
+        padding: 2px 2px 2px 2px;
+    }
+    .sv-container {
+        width: 90%;
+        height: 90%;
+    }
+    .sv-servicios-turnos {
+        width: 100%;
+    }
+    .sv-servicios-day {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+    .sv-servicios-day h4 {
+        width: 70%;
+        text-align: center;
+    }
+    .sv-servicios-day p {
+        width: 100%;
+        text-align: center;
+    }
+    .sv-servicios-night {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .sv-servicios-night h4 {
+        text-align: center;
+
+    }
+    .sv-servicios-night p {
+        width: 100%;
+        text-align: center;
+
+    }
+    #testimonios {
+        width: 100%;
+        /* justify-content: center;
+        align-items: center; */
+        padding: 10px 5px 5px 0px;
+        
+    }
+    #testimonios h2 {
+        text-align: center;
+
+    }
+    .testimonios-card-container {
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+    .testimonios-card {
+        width: 100%;
+        height: 100%;
+        max-width: unset;
+       
+    }
+    .testimonios-card img {
+        width: 90%;
+    }
+    .testimonios-card h4 {
+        font-size: 15px;
+    }
+    .testimonios-card p {
+        font-size: 13px;
+    }
+    #contacto {
+        width: 100%;
+        max-width: unset;
+    }
+    .contacto-container-1 {
+        width: 90%;
+        flex-direction: column;
+        max-width: unset;
+    }
+    .contacto-container {
+        width: 100%;
+    }
+    .contacto-container input {
+        width: 30%;
+    }
+    .contacto-container textarea {
+        width: 100%;
+
+
+    }
+    iframe {
+        width: 60%;
+        height: 60%;
+    }
+    .footer-links {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-links a {
+        width: 100%;
+        text-align: center;
+        
+        
+
+    }
+
+
+}
