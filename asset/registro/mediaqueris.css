@@ -1,0 +1,15 @@
+@media (max-width:542px){
+   .login-container {
+    display: block;
+   }
+   .register, 
+   .login {
+    flex:none;
+   }
+   .register::after {
+    top: unset;
+    bottom: -25px;
+    left: 50%;
+     
+   }
+}
