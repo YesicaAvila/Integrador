@@ -6,6 +6,8 @@
     /* Text color */
     --text-white: white;
     --text-red: #c31432;
+    --text-claro: #FBD786;
+    --text-gold: #987407;
 
 }
 
@@ -74,7 +76,8 @@ header {
 }
 /* Ver practica flexbox 1.8 */
 main {
-    background:#ffe259;
+    background:#FBD786;
+    /* #ffe259 */
     /* background-position: center;
     background-size: cover; */
     display: flex;
@@ -163,7 +166,7 @@ main {
     align-items: center;
     padding: 45px;
     max-width: 1200px;
-    background: black;
+    background: linear-gradient(to right, #ffefba, #ffffff);
     border-style: double;
     box-shadow: 0 3px 3px 0 rgba(0,0,0,.2);
     margin-top: 40px;
@@ -174,13 +177,13 @@ main {
     text-align:center;
     font-weight: 800;
     font-size: 45px;
-    color: #e65c00;
+    color: #f0be26;
 
 }
 #about-us p {
     font-weight: 500;
     font-size: 20px;
-    color: #e65c00;
+    color: #987407;
     text-align: center;
 
 }
@@ -201,7 +204,7 @@ main {
     font-weight: 600;
     text-align: center;
     padding: 40px;
-    color: black;
+    color: #987407;
     text-decoration: underline;
 }
 
@@ -339,7 +342,7 @@ main {
     font-size: 40px;
     font-weight: 600;
     text-align: center;
-    color: black;
+    color: var(--text-gold);
 }
 .sv-container {
     display: flex;
@@ -405,7 +408,7 @@ main {
     font-weight: 600;
     text-align: center;
 }
-
+/* testimonios */
 #testimonios {
     padding: 45px 90px;
     display: flex;
@@ -418,14 +421,14 @@ main {
     background-image: url("./asset/pexels-steve-art-2719782.jpg");
     background-position: center;
     background-size: cover;
-    /* background: linear-gradient(to right, #ffefba, #ffffff); */
+   
 
 }
 #testimonios h2 {
     font-weight: 800;
     font-size: 40px;
     text-align: center;
-    color:#ffefba;
+    color: white;
     
 }
 .testimonios-card-container {
@@ -481,7 +484,7 @@ main {
 }
 
 #contacto h4 {
-    color:black;
+    color:var(--text-gold);
     font-weight: 800;
     font-size: 40px;
     text-align: center;
@@ -494,7 +497,7 @@ main {
     align-items: flex-start;
     flex-wrap: wrap;
     gap: 50px;
-    background-image:url("./asset/pexels-moose-photos-1029894.jpg");
+    background-image:url("./asset/fondo-rosa.jpg");
     background-position: center;
     background-size: cover; 
     border-style: double;
@@ -513,9 +516,9 @@ main {
 
 
 .contacto-container label {
-    font-weight: 500;
+    font-weight: 800;
     font-size: 20px;
-    color:grey;
+    color: black;
     
 }
 .contacto-container input {
@@ -523,11 +526,11 @@ main {
     padding: 5px;
     font-size: 16px;
     margin-bottom: 25px;
-    background:white;
+    background:#f3e1b6;
 }
 .contacto-container textarea {
     resize:none;
-    background: white;
+    background: #f3e1b6;
 
 }
 
@@ -538,6 +541,8 @@ iframe {
     box-shadow: 0 3px 3px 0 rgba(0,0,0,.2);
 
 }
+
+/* footer */
 .footer-links {
     display: flex;
     justify-content: center;

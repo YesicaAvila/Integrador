@@ -3,7 +3,7 @@
     display: block;
    }
    .register, 
-   .login {
+    .login {
     flex:none;
    }
    .register::after {
