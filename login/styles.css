@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Cormorant+Infant:ital@1&display=swap');
 :root {
-    --background: #292E49;
-    --bg-claro: #acb6e5;
+    --background: #fffbd5;
+    --bg-: #c3b219;
     /* texto */
     --text-white: #E4E5E6;
     --text-blue: #00416A;
@@ -24,12 +24,12 @@ body{
 .form-login {
     width: 400px;
     height: 350px;
-    background: #292E49;
+    background: var(--background);
     margin:auto;
     margin-top: 180px;
     box-shadow: 7px 13px 37px #292E49;
     padding: 20px 30px;
-    border-top: 4px solid #292E49;
+    border-top: 4px solid var(--bg-);
     color: white;
     border-radius: 1rem;
 }
@@ -40,22 +40,23 @@ body{
     margin-bottom: 30px;
     border-bottom: 1px solid;
     font-size: 20px;
+    color:black;
 }
 .control {
      width: 100%;
-     border: 1px solid #292E49;
+     border: 1px solid #c3b219;
      margin-bottom: 15px;
      padding: 11px 10px;
-     background: #acb6e5;
+     background: #fffbd5;
      font-size: 14px;
      font-weight: bold;
 }
 .button {
     width: 100%;
     height: 40px;
-    background: #E4E5E6;
+    background: var(--bg-);
     border-radius: 10px;
-    color: #292E49;
+    color: black;
     margin-bottom: 16px;
 }
 .button:hover {
@@ -68,7 +69,7 @@ body{
 
 }
 .form-login a {
-    color: var(--text-white);
+    color: black;
     text-decoration: none;
     font-size: 14px;
 }
