@@ -253,8 +253,12 @@
     }
     #sv {
         width: 100%;
+        gap: 10px;
         max-width: unset;
-        padding: 0px 0px 5px 0px;
+        padding: 10px 10px 10px 10px;
+    }
+    #sv h2 {
+        text-align: center;
     }
     .sv-servicios {
         width: 90%;
@@ -443,7 +447,6 @@
         width: 100%;
         gap: 10px;
         
-        padding-top: 20px;
     
     }
     #sv h2 {
