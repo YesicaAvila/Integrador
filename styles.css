@@ -18,13 +18,16 @@
     font-family: "Aboreto", "Cormorant";
     text-decoration: none;
     list-style-type: none;
+    scroll-behavior: smooth;
+    /* border-style:solid;
+    color:red; */
     
 }
 
 /* header */
 
 header {
-    background-color:#b92b27; 
+    background-color:black; 
     box-shadow: 0 3px 3px 0 rgba(0,0,0,.2);
     width: 100%;
     display: flex;
@@ -76,7 +79,7 @@ header {
 }
 /* Ver practica flexbox 1.8 */
 main {
-    background:#FBD786;
+    background:#FFEFBA;
     /* #ffe259 */
     /* background-position: center;
     background-size: cover; */
@@ -147,8 +150,8 @@ main {
 }
     
 .hero-info-a a {
-    color: black;
-    background: #ffd452;
+    color: var(--text-white);
+    background: black;
     width: 150px;
     padding: 15px 0px;
     border-radius: 10px;
@@ -166,7 +169,7 @@ main {
     align-items: center;
     padding: 45px;
     max-width: 1200px;
-    background: linear-gradient(to right, #ffefba, #ffffff);
+    background: black;
     border-style: double;
     box-shadow: 0 3px 3px 0 rgba(0,0,0,.2);
     margin-top: 40px;
@@ -177,13 +180,13 @@ main {
     text-align:center;
     font-weight: 800;
     font-size: 45px;
-    color: #f0be26;
+    color: var(--text-white);
 
 }
 #about-us p {
     font-weight: 500;
     font-size: 20px;
-    color: #987407;
+    color: var(--text-white);
     text-align: center;
 
 }
@@ -204,7 +207,7 @@ main {
     font-weight: 600;
     text-align: center;
     padding: 40px;
-    color: #987407;
+    color: black;
     text-decoration: underline;
 }
 
@@ -241,7 +244,7 @@ main {
     align-items: center;
     text-align: center;
     /* background: linear-gradient(to right, #ed213a, #93291e); */
-    background: #FFEFBA;
+    background: black;
     box-shadow: 0 4px 4px 0 rgba(0,0,0,.2);
     gap: 20px;
     border-radius: 10px;
@@ -251,19 +254,22 @@ main {
     text-align: center;
     font-weight: 600;
     font-size: 20px;
-    color: black;
+    color: var(--text-white);
     
 
 }
 .sv-servicios-1 p {
     text-align: center;
     font-size: 15px;
-    color: black;
+    font-weight: 300;
+    color: var(--text-white);
 
 }
 .sv-servicios-1 span {
     text-align: center;
-    background: red;
+    background: white;
+    color: black;
+    font-weight: 700;
     width: 150px;
     padding: 15px 0px;
     border-radius: 1rem;
@@ -342,7 +348,7 @@ main {
     font-size: 40px;
     font-weight: 600;
     text-align: center;
-    color: var(--text-gold);
+    color: black;
 }
 .sv-container {
     display: flex;
@@ -360,10 +366,11 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #FFEFBA;
+    background: #FBD786;
     padding: 50px 50px;
     gap: 20px;
     border-radius: 1rem;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.2);
    
 }
 .sv-servicios-day h4 {
@@ -381,7 +388,16 @@ main {
     padding: 50px 50px;
     gap: 20px;
     border-radius: 1rem;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.2);
 }
+.sv-servicios-night h4 {
+    color:white; 
+
+}
+.sv-servicios-night p {
+    color: white;
+}
+
 .morning {
     width: 50px;
     height: 50px;
@@ -396,14 +412,15 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: red;
-    padding: 10px 30px;
+    background: white;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,.2);
+    padding: 20px 40px;
     border-radius: 10px;
 
 
 }
 .serv a {
-    color:antiquewhite;
+    color:black;
     font-size: 30px;
     font-weight: 600;
     text-align: center;
@@ -433,40 +450,41 @@ main {
 }
 .testimonios-card-container {
     display: flex;
+    /* max-width: 1200px; */
     justify-content: space-around;
-    align-items: flex-start;
+    align-items:flex-start;
     flex-wrap: wrap;
     gap: 50px;
     
 
 }
 .testimonios-card {
-    width: 300px;
-    height: 400px;
+    width: 200px;
+    height: 500px;
     padding: 40px 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background: #fffbd5;
+    background: black;
     border-radius: 10px;
     gap: 20px;
     box-shadow: 0 3px 3px 0 rgba(0,0,0,.2);
 }
 .testimonios-card img {
-    width: 120px;
+    width: 110px;
 }
 .testimonios-card h4 {
     font-size: 20px; 
     font-weight: 300;
-    color: black;
+    color: var(--text-white);
 
 }
 .testimonios-card p {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     font-style: italic;
-    color: black;
+    color: var(--text-white);
 }
 /* contacto e iframe */
 #contacto {
@@ -484,7 +502,7 @@ main {
 }
 
 #contacto h4 {
-    color:var(--text-gold);
+    color:black;
     font-weight: 800;
     font-size: 40px;
     text-align: center;
@@ -526,11 +544,11 @@ main {
     padding: 5px;
     font-size: 16px;
     margin-bottom: 25px;
-    background:#f3e1b6;
+    background:#bdc3c7;
 }
 .contacto-container textarea {
     resize:none;
-    background: #f3e1b6;
+    background: #bdc3c7;
 
 }
 
@@ -549,7 +567,7 @@ iframe {
     align-items: center;
     gap: 60px;
     padding: 40px;
-    background: #b92b27;
+    background: black;
 
 }
 .footer-links a {

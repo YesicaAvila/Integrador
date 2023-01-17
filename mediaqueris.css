@@ -1,4 +1,4 @@
-@media (max-width:992px){
+@media (max-width: 992px){
     header {
         width: 100%;
     }
@@ -12,7 +12,7 @@
         right: 5%;
         width: 90%;
         flex-direction: column;
-        background:#b92b27;
+        background:black;
         border: 2px solid #ffe259;
         box-shadow: 0 3px 3px 0 rgba(0,0,0,.2);
         border-top: 0px;
@@ -30,19 +30,22 @@
         display: flex;
         cursor: pointer;
         order: 2;
+        color: white;
 
     }
 
     #toggle-menu:checked + .navbar-list {
         display: flex;
 
+
     }
 
     #hero {
         width: 100%;
-        max-width: 500px;
-        padding: 10px;
-       
+        margin-top: 75px;
+        /* max-width: 500px; */
+         
+
     }
 
 
@@ -51,17 +54,19 @@
         /* justify-content: center;
         align-items: center; */
         gap: 20px;
-        
-    } 
+
+    }
 
     .hero-info h1 {
-        width: 90%;
+        font-size: 50px;
+        width: 100%;
         text-align: center;
-        max-width: 500px;
+        /* max-width: 500px; */
         min-width: unset;
     }
     .hero-info p {
-        width: 60%;
+        font-size: 20px;
+        width: 50%;
         max-width: 600px;
 
     }
@@ -74,7 +79,7 @@
         text-align: center;
     }
 
-    
+
     #about-us {
         width: 60%;
         text-align: center;
@@ -99,8 +104,9 @@
 
     }
     .sv-servicios {
-       width: 80%;
+       width: 70%;
     }
+    
     .sv-servicios {
         animation: none;
     }
@@ -110,6 +116,16 @@
     .sv-servicios-3t {
         animation: none;
     }
+    
+    .sv-servicios-1 span {
+        width: 50%;
+
+    }
+    .sv-servicios-img {
+        width: 50%;
+
+    }
+    
     .sv-servicios-turnos {
         flex-wrap: wrap;
     }
@@ -125,13 +141,14 @@
     }
     .sv-servicios-day {
         flex-wrap: wrap;
-    
+
     }
     .sv-servicios-night {
         flex-wrap: wrap;
     }
     #testimonios {
-        width: 100%;
+        width: 80%;
+        max-width: unset;
         justify-content: center;
         align-items: center;
     }
@@ -142,18 +159,23 @@
     }
     .testimonios-card-container {
         width: 100%;
+        
         justify-content: center;
         align-items: center;
-        
+
     }
     .testimonios-card {
-        width: 100%;
+        width: 50%;
         max-width: 500px;
+    }
+    
+    .testimonios-card img {
+        width: 60%;
     }
     #contacto {
         width: 100%;
         max-width: 500px;
-        
+
     }
     #contacto h4 {
         font-size: 30px;
@@ -161,21 +183,21 @@
     .contacto-container-1 {
         width: 100%;
         max-width: 500px;
-       
+
     }
     .contacto-container {
         width: 100%;
-        
 
-    } 
+
+    }
     .contacto-container label {
         font-size: 15px;
     }
-   
+
     .contacto-container input {
         width: 30%;
     }
-    
+
 
 }
 
@@ -189,7 +211,8 @@
         height: 90%;
     }
     #hero {
-        width: 90%;
+        width: 100%;
+        padding: 20px 20px;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
@@ -201,10 +224,11 @@
     }
     .hero-info h1  {
         width: 100%;
+        font-size: 30px;
         text-align: center;
         min-width: unset;
         max-width: unset;
-        
+
     }
 
     .hero-info p {
@@ -229,14 +253,29 @@
     }
     #sv {
         width: 100%;
+        max-width: unset;
         padding: 0px 0px 5px 0px;
     }
+    .sv-servicios {
+        width: 90%;
+    }
     .sv-servicios-1 {
-        width: 100%
+        width: 90%
+    }
+    .sv-servicios-1 h4 {
+        font-size: 17px;
+
+    }
+    .sv-servicios-1 p {
+        font-size: 12 px;
     }
     .sv-servicios-1 span {
         width: 50%;
         padding: 2px 2px 2px 2px;
+    }
+    .sv-servicios-img {
+        width: 70%;
+        height: auto;
     }
     .sv-container {
         width: 90%;
@@ -250,7 +289,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+
 
     }
     .sv-servicios-day h4 {
@@ -282,7 +321,7 @@
         /* justify-content: center;
         align-items: center; */
         padding: 10px 5px 5px 0px;
-        
+
     }
     #testimonios h2 {
         text-align: center;
@@ -292,17 +331,17 @@
         width: 90%;
         justify-content: center;
         align-items: center;
-        
+
 
     }
     .testimonios-card {
         width: 100%;
         height: 100%;
         max-width: unset;
-       
+
     }
     .testimonios-card img {
-        width: 90%;
+        width: 40%;
     }
     .testimonios-card h4 {
         font-size: 15px;
@@ -323,7 +362,7 @@
         width: 100%;
     }
     .contacto-container input {
-        width: 30%;
+        width: 50%;
     }
     .contacto-container textarea {
         width: 100%;
@@ -343,9 +382,234 @@
     .footer-links a {
         width: 100%;
         text-align: center;
-        
-        
 
+
+
+    }
+
+
+}
+
+@media (max-width:320px) {
+
+    header {
+        width: 100%;
+        z-index: 1;
+    }
+    .navbar {
+        gap: 10px;
+    }
+    .logo {
+        height: 60%;
+    }
+    #hero {
+        width: 100%;
+        padding: 40px 40px;
+        margin-top: 70px;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+    .hero-info {
+        width: 100%;
+    }
+    .hero-info h1 {
+        width: 80%;
+        font-size: 30px;
+        text-align: center;
+        min-width: unset;
+    }
+    .hero-info p {
+        text-align: center;
+        width: 100%;
+        font-size: 15px;
+    }
+    .hero-info-a {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+    }
+    .hero-info-a a {
+        font-size: 15px;
+        text-align: center;
+        
+    }
+    #about-us {
+        width: 80%;
+    }
+    #sv {
+        
+        width: 100%;
+        gap: 10px;
+        
+        padding-top: 20px;
+    
+    }
+    #sv h2 {
+        
+        text-align: center;
+        /* padding: unset; */
+        font-size: 30px;
+
+    }
+    .sv-servicios {
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .sv-servicios-1 {
+        width: 100%;
+
+    }
+    .sv-servicios-1 h4 {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .sv-servicios-1 p {
+        text-align: center;
+        font-weight: 300;
+        font-size: 13px;
+    }
+    .sv-servicios-1 span {
+        width: 70%;
+        gap: 5px;
+        padding: 2px 4px 4px 2px;
+    }
+    .sv-servicios-img {
+        width: 100%;
+    }
+    .sv-servicios-2-im {
+        width: 100%;
+    }
+    .sv-servicios-3t {
+        width: 90%;
+    }
+    .sv-servicios-turnos {
+        justify-content: center;
+        align-items: center;
+
+    }
+    .sv-servicios h3 {
+        text-align: center;
+        padding: 40px;
+        padding-bottom: 10px;
+        font-size: 30px;
+
+    }
+    .sv-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+    }
+    .sv-servicios-day {
+        justify-content: center;
+        align-items: center;
+    }
+    .sv-servicios-day h4 {
+        text-align: center;
+    }
+    .sv-servicios-day p {
+        font-size: 14px;
+        text-align: center;
+    }
+    .sv-servicios-night {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .sv-servicios-night h4 {
+        text-align: center;
+
+    }
+    .sv-servicios-night p {
+        font-size: 14px;
+    }
+    .morning {
+        width: 50%;
+        height: auto;
+    }
+    .night {
+        width: 50%;
+        height: auto;
+    }
+    .serv {
+        gap: 10;
+        padding: 10px 20px;
+
+
+    }
+    .serv a {
+        font-size: 25px;
+    }
+    #testimonios {
+        width: 100%;
+        gap: 15px;
+    }
+    #testimonios h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .testimonios-card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .testimonios-card {
+        width: 90%;
+    }
+    .testimonios-card img {
+        width: 70%;
+    }
+    .testimonios-card h4 {
+        font-size: 15px;
+    }
+    .testimonios-card p {
+        font-size: 10px;
+        text-align: center;
+    }
+    #contacto {
+        width: 100%;
+
+    }
+    #contacto h4 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .contacto-container-1 {
+        width: 100%;
+
+    }
+    .contacto-container {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+    .contacto-container label {
+        font-size: 15px;
+        width: 90px;
+    }
+    .contacto-container input {
+        width: 100%;
+
+    }
+    .contacto-container textarea {
+        width: 100%;
+    }
+    iframe {
+        width: 100%;
+        box-shadow: 0 3px 3px 0 rgba(0,0,0,.2);
+    }
+    .footer-links {
+        width: 100%;
+        gap: 40px;
+    }
+    .footer-link a {
+        align-items: center;
+        font-size: 10px;
     }
 
 
